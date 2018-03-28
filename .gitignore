@@ -5,14 +5,14 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+freelance_camp_documents/.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+freelance_camp_documents/log/*
+freelance_camp_documents/tmp/*
+freelance_camp_documents/!/log/.keep
+freelance_camp_documents/!/tmp/.keep
 
-.byebug_history
+freelance_camp_documents/.byebug_history
 
 .vscode/*
