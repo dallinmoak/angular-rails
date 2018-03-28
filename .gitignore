@@ -16,3 +16,5 @@ freelance_camp_documents/!/tmp/.keep
 freelance_camp_documents/.byebug_history
 
 .vscode/*
+freelance_camp_documents/tmp/pids/server.pid
+freelance_camp_documents/log/development.log
