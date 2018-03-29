@@ -6,16 +6,9 @@
       <h5 class="card-title">{{ doc.title }}</h5>
       <p class="card-text">{{ doc.description}}</p>
       <div>
-        <a class="btn btn-lg btn-primary" href="{{ doc.file_url }}">download file</a>
+        <a class="btn btn-lg btn-primary" href="{{ doc.file_url }}" target="_blank">download file</a>
       </div>
       <p class="card-text"><small class="text-muted">Last updated {{ doc.updated_at }}</small></p>
-    </div>
-  </div>
-  
-  <div class="card mb-3">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      
     </div>
   </div>
 </div>
