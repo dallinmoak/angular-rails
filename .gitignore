@@ -6,15 +6,23 @@
 
 # Ignore bundler config.
 freelance_camp_documents/.bundle
+freelance_camp_proposal/.bundle
 
 # Ignore all logfiles and tempfiles.
 freelance_camp_documents/log/*
+freelance_camp_proposal/log/*
+
 freelance_camp_documents/tmp/*
+freelance_camp_proposal/tmp/*
 freelance_camp_documents/!/log/.keep
+freelance_camp_proposal/!/log/.keep
 freelance_camp_documents/!/tmp/.keep
+freelance_camp_proposal/!/tmp/.keep
 
 freelance_camp_documents/.byebug_history
+freelance_camp_proposal/.byebug_history
+
+
+
 
 .vscode/*
-freelance_camp_documents/tmp/pids/server.pid
-freelance_camp_documents/log/development.log
