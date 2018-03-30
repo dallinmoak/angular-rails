@@ -4,11 +4,11 @@
     <img class="card-img-top" src="{{ doc.image_url }}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">{{ doc.title }}</h5>
+      <p class="card-text"><small class="text-muted">Last updated: {{ doc.updated_at | date}}</small></p>
       <p class="card-text">{{ doc.description}}</p>
       <div>
         <a class="btn btn-lg btn-primary" href="{{ doc.file_url }}" target="_blank">download file</a>
       </div>
-      <p class="card-text"><small class="text-muted">Last updated {{ doc.updated_at }}</small></p>
     </div>
   </div>
 </div>
