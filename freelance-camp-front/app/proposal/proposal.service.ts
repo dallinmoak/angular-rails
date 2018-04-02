@@ -23,7 +23,9 @@ export class ProposalService{
   createProposal(proposal){
     let headers = new Headers({ 'Content-Type': 'application.json'});
     let options = new RequestOptions({ headers: headers});
-    return this.http.post(this.proposalsUrl, JSON.stringify(proposal), {headers: headers}).map((res: Response)=> res.json());
+    let asdf = this.http.post(this.proposalsUrl, JSON.stringify(proposal), {headers: headers}).map((res: Response)=> res.json());
+    console.log(asdf);
+    return asdf;
   }
 
   private handleError (error: Response | any) {

@@ -26,7 +26,9 @@ var ProposalService = /** @class */ (function () {
     ProposalService.prototype.createProposal = function (proposal) {
         var headers = new http_1.Headers({ 'Content-Type': 'application.json' });
         var options = new http_1.RequestOptions({ headers: headers });
-        return this.http.post(this.proposalsUrl, JSON.stringify(proposal), { headers: headers }).map(function (res) { return res.json(); });
+        var asdf = this.http.post(this.proposalsUrl, JSON.stringify(proposal), { headers: headers }).map(function (res) { return res.json(); });
+        console.log(asdf);
+        return asdf;
     };
     ProposalService.prototype.handleError = function (error) {
         var errMsg;
